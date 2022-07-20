@@ -725,8 +725,7 @@ $(function () {
 
     ***************************/
     if ($("div").is("#map")) {
-      mapboxgl.accessToken =
-        "pk.eyJ1Ijoic3Rvc2NhciIsImEiOiJja2VpbDE4b2UwbDg3MnNwY2d3YzlvcDV5In0.e26tLedpKwxrkOmPkWhQlg";
+      mapboxgl.accessToken = "https://goo.gl/maps/UKaFpvUgfvGzk8s89";
       var map = new mapboxgl.Map({
         container: "map",
         style: "mapbox://styles/stoscar/ckk6qpt2h0yi517o77x3tw34f",
